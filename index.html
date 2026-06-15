@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://connect.facebook.net">
+    <link rel="preconnect" href="https://firestore.googleapis.com">
+    <link rel="preconnect" href="https://identitytoolkit.googleapis.com">
+    <title>ইকরা ফ্যাশন (Iqra Fashion) - Premium Three-Piece Store</title>
+    <meta name="description" content="ইকরা ফ্যাশন (Iqra Fashion) - বাংলাদেশের সেরা ও আকর্ষণীয় প্রিমিয়াম থ্রিপিস কালেকশন শপ।" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iqrafashion.com" />
+    <meta property="og:site_name" content="Iqra Fashion" />
+    <meta property="og:title" content="ইকরা ফ্যাশন (Iqra Fashion) - Premium Three-Piece Store" />
+    <meta property="og:description" content="আমাদের এখানে পেয়ে যাবেন আকর্ষণীয় সুতি, জর্জেট, সিল্ক ও এক্সক্লুসিভ কালেকশনের সুতি কারুকাজের গর্জিয়াস থ্রিপিস কম মূল্যে।" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&q=80&w=1200&h=630" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="fb:app_id" content="1492484778520113" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Iqra Fashion" />
+    <meta property="twitter:description" content="বাংলাদেশের সেরা ও আকর্ষণীয় প্রিমিয়াম থ্রিপিস কালেকশন শপ।" />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1532330393533-443990a51d10?auto=format&fit=crop&q=80&w=1200&h=630" />
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1492484778520113');
+    fbq('track', 'PageView');
+    </script>
+    
+    <!-- Critical Performance Preconnects -->
+    <link rel="preconnect" href="https://firebasestorage.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://firestore.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com">
+    <link rel="dns-prefetch" href="https://firestore.googleapis.com">
+    
+    <script>
+      // Ultra-fast link detection for Facebook/External clicks
+      (function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const productId = urlParams.get('product');
+        if (productId) {
+          window.__PRIORITY_PRODUCT_ID__ = productId;
+          // Mark this as a priority navigation for App.tsx
+          performance.mark('product-link-detected');
+        }
+      })();
+    </script>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1492484778520113&ev=PageView&noscript=1"
+    /></noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
